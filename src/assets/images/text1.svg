@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="237.77824mm"
+   height="44.285145mm"
+   viewBox="0 0 237.77824 44.285145"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.68968703,-33.161349)">
+    <text
+       xml:space="preserve"
+       style="font-size:52.9167px;fill:#000000;stroke-width:0.264583"
+       x="-1.8265692"
+       y="72.332108"
+       id="text1"
+       inkscape:export-filename="text1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, ';fill:#1f1205;fill-opacity:1;stroke-width:0.264583"
+         x="-1.8265692"
+         y="72.332108">JereSom<tspan
+   style="fill:#d66408;fill-opacity:1"
+   id="tspan3" /></tspan></text>
+    <ellipse
+       style="fill:#d66408;fill-opacity:1;stroke-width:0.264583"
+       id="path5"
+       cx="231.97417"
+       cy="72.880074"
+       rx="5.1143913"
+       ry="4.5664206" />
+  </g>
+</svg>
