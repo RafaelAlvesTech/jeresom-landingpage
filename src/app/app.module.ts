@@ -115,16 +115,16 @@ import { BlogDetailsPageComponent } from './components/pages/blog-details-page/b
         PrivacyPolicyPageComponent,
         TermsConditionsPageComponent,
         BlogPageComponent,
-        BlogDetailsPageComponent
+        BlogDetailsPageComponent,
     ],
     imports: [
         BrowserModule,
         AppRoutingModule,
         CarouselModule,
         BrowserAnimationsModule,
-        NgxScrollTopModule
+        NgxScrollTopModule,
     ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
