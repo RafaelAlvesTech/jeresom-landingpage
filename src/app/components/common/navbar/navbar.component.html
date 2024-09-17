@@ -20,232 +20,25 @@
             <div class="navbar-collapse flex self-center grow basis-auto">
                 <ul class="navbar-nav self-center flex-row ml-auto lg:flex">
                     <li class="mx-15 lg:mx-[12px] xl:mx-15 2xl:mx-[17px] py-10 relative group last:mr-0 first:ml-0">
-                        <a href="javascript:void(0)"
-                            class="text-black text-[15px] font-medium relative before:bottom-0 before:left-0 before:right-0 before:h-[1px] before:bg-black before:absolute before:transition-all before:w-0 group-hover:before:w-full dropdown-toggle">
+                        <a routerLink="/"
+                            class="text-black text-[15px] font-medium relative before:bottom-0 before:left-0 before:right-0 before:h-[1px] before:bg-black before:absolute before:transition-all before:w-0 group-hover:before:w-full"
+                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                             Home
                         </a>
-                        <ul
-                            class="absolute bg-white left-0 w-[270px] top-[100%] shadow-dropdown py-15 opacity-0 invisible transition-all group-hover:opacity-100 group-hover:visible">
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Home Demo - 1
-                                </a>
-                            </li>
-
-                        </ul>
                     </li>
                     <li class="mx-15 lg:mx-[12px] xl:mx-15 2xl:mx-[17px] py-10 relative group last:mr-0 first:ml-0">
-                        <a href="javascript:void(0)"
-                            class="text-black text-[15px] font-medium relative before:bottom-0 before:left-0 before:right-0 before:h-[1px] before:bg-black before:absolute before:transition-all before:w-0 group-hover:before:w-full dropdown-toggle">
+                        <a routerLink="/about"
+                            class="text-black text-[15px] font-medium relative before:bottom-0 before:left-0 before:right-0 before:h-[1px] before:bg-black before:absolute before:transition-all before:w-0 group-hover:before:w-full"
+                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                             Sobre
                         </a>
-                        <ul
-                            class="absolute bg-white left-0 w-[270px] top-[100%] shadow-dropdown py-15 opacity-0 invisible transition-all group-hover:opacity-100 group-hover:visible">
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/about"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    About Us
-                                </a>
-                            </li>
-                            <li class="py-[8px] px-20 relative">
-                                <a href="javascript:void(0)"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary dropdown-toggle"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Services
-                                </a>
-                                <ul
-                                    class="absolute bg-white -left-full w-[270px] top-0 shadow-dropdown py-15 opacity-0 invisible transition-all">
-                                    <li class="py-[8px] px-20">
-                                        <a routerLink="/services"
-                                            class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                            Services
-                                        </a>
-                                    </li>
-                                    <li class="py-[8px] px-20">
-                                        <a routerLink="/service-details"
-                                            class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                            Service Details
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="py-[8px] px-20 relative">
-                                <a href="javascript:void(0)"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary dropdown-toggle"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Blog
-                                </a>
-                                <ul
-                                    class="absolute bg-white -left-full w-[270px] top-0 shadow-dropdown py-15 opacity-0 invisible transition-all">
-                                    <li class="py-[8px] px-20">
-                                        <a routerLink="/blog"
-                                            class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li class="py-[8px] px-20">
-                                        <a routerLink="/blog-details"
-                                            class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                            Blog Details
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/team"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Team
-                                </a>
-                            </li>
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/contact"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Contact Us
-                                </a>
-                            </li>
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/testimonials"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Testimonials
-                                </a>
-                            </li>
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/faq"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    FAQ
-                                </a>
-                            </li>
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/privacy-policy"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Privacy Policy
-                                </a>
-                            </li>
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/terms-conditions"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Terms & Conditions
-                                </a>
-                            </li>
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/not-found"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    404 Error Page
-                                </a>
-                            </li>
-                            <li class="py-[8px] px-20 relative">
-                                <a href="javascript:void(0)"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary dropdown-toggle"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Multi Level Menu
-                                </a>
-                                <ul
-                                    class="absolute bg-white -left-full w-[270px] top-0 shadow-dropdown py-15 opacity-0 invisible transition-all">
-                                    <li class="py-[8px] px-20">
-                                        <a href="javascript:void(0)"
-                                            class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                            First
-                                        </a>
-                                    </li>
-                                    <li class="py-[8px] px-20">
-                                        <a href="javascript:void(0)"
-                                            class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                            Second
-                                        </a>
-                                    </li>
-                                    <li class="py-[8px] px-20 relative">
-                                        <a routerLink="/doc-landing"
-                                            class="block font-medium text-[15px] text-black transition-all hover:text-primary dropdown-toggle"
-                                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                            Third
-                                        </a>
-                                        <ul
-                                            class="absolute bg-white left-full w-[270px] top-0 shadow-dropdown py-15 opacity-0 invisible transition-all">
-                                            <li class="py-[8px] px-20">
-                                                <a href="javascript:void(0)"
-                                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                                    Third 1
-                                                </a>
-                                            </li>
-                                            <li class="py-[8px] px-20 relative">
-                                                <a href="javascript:void(0)"
-                                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                                    Third 2
-                                                </a>
-                                            </li>
-                                            <li class="py-[8px] px-20">
-                                                <a href="javascript:void(0)"
-                                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                                    Third 3
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
                     </li>
                     <li class="mx-15 lg:mx-[12px] xl:mx-15 2xl:mx-[17px] py-10 relative group last:mr-0 first:ml-0">
-                        <a href="javascript:void(0)"
-                            class="text-black text-[15px] font-medium relative before:bottom-0 before:left-0 before:right-0 before:h-[1px] before:bg-black before:absolute before:transition-all before:w-0 group-hover:before:w-full dropdown-toggle">
+                        <a routerLink="/services"
+                            class="text-black text-[15px] font-medium relative before:bottom-0 before:left-0 before:right-0 before:h-[1px] before:bg-black before:absolute before:transition-all before:w-0 group-hover:before:w-full"
+                            routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                             Alunos
                         </a>
-                        <ul
-                            class="absolute bg-white left-0 w-[270px] top-[100%] shadow-dropdown py-15 opacity-0 invisible transition-all group-hover:opacity-100 group-hover:visible">
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/saving-goals"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Saving Goals
-                                </a>
-                            </li>
-                            <li class="py-[8px] px-20">
-                                <a routerLink="/cash-back"
-                                    class="block font-medium text-[15px] text-black transition-all hover:text-primary"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-                                    routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                                    Cash Back Offers
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="mx-15 lg:mx-[12px] xl:mx-15 2xl:mx-[17px] py-10 relative group last:mr-0 first:ml-0">
                         <a routerLink="/help"
@@ -255,25 +48,6 @@
                         </a>
                     </li>
                 </ul>
-                <div
-                    class="other-options self-center relative lg:ml-40 before:bg-black before:h-[18px] before:w-[1px] before:absolute before:-left-[22px] before:top-[8px] before:opacity-[.08]">
-                    <button class="text-black font-medium text-[14px] md:text-[15px]" type="button"
-                        (click)="sidebarToggleClass()">
-                        <img src="assets/images/flags/br.svg" class="inline mr-5 relative -top-[1px]" width="22"
-                            alt="gbp-flag">
-                        BR
-                    </button>
-                    <a routerLink="/login"
-                        class="ml-20 2xl:ml-[23px] text-black font-medium text-[14px] md:text-[15px] inline-block transition-all hover:text-primary">
-                        Login
-                    </a>
-                    <a routerLink="/register"
-                        class="ml-20 2xl:ml-[23px] btn inline-block text-[14px] md:text-[15px] text-black bg-warning font-medium px-[18px] py-5 rounded-full transition-all hover:bg-white">
-                        <span class="relative -top-[1px]">
-                            Cadastre-se
-                        </span>
-                    </a>
-                </div>
             </div>
         </nav>
     </div>
@@ -284,7 +58,7 @@
     <div class="bg-white w-full md:w-[500px] lg:w-[600px] absolute top-0 bottom-0 right-0">
         <div class="flex justify-between items-center py-25 px-30 border-b border-[#eeeeee]">
             <h3 class="text-[20px] leading-none text-black font-bold">
-                Select location and language
+                Select location
             </h3>
             <button
                 class="inline-block rounded-full w-40 h-40 text-[24px] p-0 text-black text-center bg-gray transition-all hover:bg-warning"
@@ -293,33 +67,6 @@
             </button>
         </div>
         <div class="py-40 px-30">
-            <div class="mb-25">
-                <span
-                    class="block font-medium text-secondary text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] mb-10">
-                    Select your language
-                </span>
-                <select
-                    class="block w-full text-[14px] md:text-[15px] lg:text-[16px] text-black font-medium border border-[#dddddd] rounded-[5px] px-15 py-[13px] cursor-pointer outline-0">
-                    <option selected>
-                        English (US)
-                    </option>
-                    <option value="1">
-                        Deutsch
-                    </option>
-                    <option value="2">
-                        العربية
-                    </option>
-                    <option value="3">
-                        Español
-                    </option>
-                    <option value="4">
-                        Français
-                    </option>
-                    <option value="5">
-                        Italiano
-                    </option>
-                </select>
-            </div>
             <div class="mb-25">
                 <span
                     class="block font-medium text-secondary text-[14px] md:text-[15px] lg:text-[16px] xl:text-[18px] mb-10">
