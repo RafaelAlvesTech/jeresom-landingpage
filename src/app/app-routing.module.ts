@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeDemoOneComponent } from './components/pages/home-demo-one/home-demo-one.component';
 import { HomeDemoTwoComponent } from './components/pages/home-demo-two/home-demo-two.component';
@@ -21,6 +21,7 @@ import { PrivacyPolicyPageComponent } from './components/pages/privacy-policy-pa
 import { TermsConditionsPageComponent } from './components/pages/terms-conditions-page/terms-conditions-page.component';
 import { BlogPageComponent } from './components/pages/blog-page/blog-page.component';
 import { BlogDetailsPageComponent } from './components/pages/blog-details-page/blog-details-page.component';
+import { OnlinePaymentComponent } from './components/common/online-payment/online-payment.component';
 
 const routes: Routes = [
     { path: 'index-2', redirectTo: '', pathMatch: 'full' },
@@ -50,7 +51,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
+    imports: [
+        RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' }),
+    ],
     exports: [RouterModule],
 })
 export class AppRoutingModule {}
