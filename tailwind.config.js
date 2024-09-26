@@ -68,7 +68,7 @@ module.exports = {
             'transparent': 'transparent',
         },
         screens: {
-            'sm': '576px',
+            'sm': '390px',
             // => @media (min-width: 576px) { ... }
 
             'md': '768px',
